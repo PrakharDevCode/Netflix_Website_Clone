@@ -112,7 +112,6 @@ body{
     align-items: center;
     gap: 10px;
     padding-top: 20px;
-    
 }
 .hero .flex .inpt{
     width: 500px;
@@ -156,7 +155,6 @@ body{
     padding: 40px 0;
     background-color: black;
     position: relative;
-
 }
 .trend_class h3{
     color: white;
@@ -288,10 +286,12 @@ body{
     align-items: center;
     background-color: rgb(46, 44, 44);
     color: white;
-    width: 1259px;
+    width: 100%;
+    max-width: 1300px;
     margin: auto;
     padding: 20px;
     border-radius: 5px;
+    flex-wrap: wrap;
 }
 .feature3 .card-wrapper3 .card3 p{
     font-size: 30px;
@@ -300,4 +300,89 @@ body{
 .feature3 .card-wrapper3 .card3 img{
     width: 70px;
 }
+
+.footer .ready-footer{
+    text-align: center;
+    color: white;
+}
+.footer .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.footer .flex .inpt{
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid white;
+    border-radius: 5px;
+    position: relative;
+}
+.footer .flex .getstart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer .flex .getstart .inpb{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer .footer2{
+    width: 100%;
+    max-width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+.footer2 .Questions-footer{
+    margin: 10px;
+    padding-bottom: 20px;
+}
+.footer table{
+    margin: 10px;
+    /* padding-bottom: 20px; */
+}
+.footer table td{
+    padding-bottom:20px;
+}
+.footer table td a{
+    text-decoration: none;
+    display: block;
+    margin-bottom:0.1px ;
+}
+.footer .btn1{
+    display: flex;
+    gap: 7px;
+    position: relative;
+    z-index: 10;
+    padding: 4px 17px 4px 17px;
+    color: white;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+    margin: 10px;
+}
+.footer .down-footer{
+    margin: 10px;
+}
+.footer .netflix-india{
+    margin: 10px;
+    padding: 20px 0;
+}
+
+
 

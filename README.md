@@ -17,4 +17,4 @@ HTML5
 CSS3
 Flexbox
 Background images
-Responsive layout with media queries (optional)
+Responsive layout with media queries

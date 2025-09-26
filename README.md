@@ -2,6 +2,8 @@
 
 A simple, responsive Netflix landing page clone built using pure HTML5 and CSS3. This project replicates the basic layout of Netflix's homepage, including the hero banner, navigation bar, and call-to-action section.
 
+🌐Live Demo: https://68d6d59d4a14280a779cd160--netfl-clo-webs.netlify.app/
+
 ## 🔥 Features
 
 Responsive design layout
